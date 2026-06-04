@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CreditView</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="sidebar">
+    <div class="logo">CreditView</div>
+    <p class="tag">Reimagining retail with monthly payments upfront.</p>
+
+    <select id="retailerSelect">
+      <optgroup label="Global Retailers">
+        <option value="amazon">Amazon Inspired</option>
+        <option value="walmart">Walmart Inspired</option>
+        <option value="bestbuy">Best Buy Inspired</option>
+      </optgroup>
+      <optgroup label="South African Retailers">
+        <option value="takealot">Takealot Inspired</option>
+        <option value="makro">Makro Inspired</option>
+        <option value="mrprice">Mr Price Inspired</option>
+        <option value="sportscene">Sportscene Inspired</option>
+        <option value="woolworths">Woolworths Inspired</option>
+      </optgroup>
+    </select>
+
+    <div class="count">40+ Retailers Planned</div>
+</div>
+
+<div class="content">
+<header>
+  <h1 id="retailerTitle">Amazon Inspired</h1>
+  <div class="toggle">
+    <button id="creditBtn" class="active">Credit First</button>
+    <button id="cashBtn">Traditional Retail</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div>Flexible Payments</div>
+  <div>Secure Shopping</div>
+  <div>Fast Delivery</div>
+</div>
+
+<div class="products" id="products"></div>
+
+<div class="footerbox">
+<h3>Why Credit First?</h3>
+<p>This concept demonstrates how retailers could highlight affordability by displaying monthly repayments directly on product listings.</p>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
